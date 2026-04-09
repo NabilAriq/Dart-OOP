@@ -34,7 +34,7 @@ void main(List<String> args) {
   }
 
   // null (kosongan)
-  String? nama = null;
+  String? nama;
   print(nama);
 
   // ternary operator
