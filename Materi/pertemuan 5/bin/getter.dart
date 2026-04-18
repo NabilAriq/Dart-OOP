@@ -9,7 +9,7 @@ class Rectangle {
 
   // Getter read-only - tidak ada setternya
   double get width => _width;
-  double get height => height;
+  double get height => _height;
 
   // Getter yang menghitung nilai turunan (tidak butuh field tersendiri)
   double get area => _width * _height;
