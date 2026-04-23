@@ -44,6 +44,8 @@ void main(List<String> args) {
     Triangle("Hijau", 6, 4),
   ];
 
+  print(shapes);
+
   for (var s in shapes){
     s.describe();
   }
