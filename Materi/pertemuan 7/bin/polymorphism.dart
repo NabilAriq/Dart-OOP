@@ -33,9 +33,14 @@ class Duck extends Animal {
   }
 }
 
+// Upcasting 
 void main(List<String> args) {
-  List<Animal> animals = [Cat("Kitty"), Dog("Rex"), Duck("Donald")];
+  Animal mypet = Dog("Buddy");
+  mypet.makeSound();
 
+  List<Animal> animals = [Cat("Kitty"), Dog("Rex"), Duck("Donald"), Cat("Whiskers"), Dog("Bolt")];
+
+// Dynamic Dispatch
   for (var animal in animals) {
     animal.makeSound();
   }
