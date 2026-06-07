@@ -5,14 +5,15 @@
 
 // Lebih baik gunakan abstract class untuk interface
 abstract class Printable {
-void printDocument();
+  void printDocument();
 }
+
 class InvoicePrinter implements Printable {
-@override
-void printDocument() => print('Mencetak invoice...');
+  @override
+  void printDocument() => print('Mencetak invoice...');
 }
+
 class ReportPrinter implements Printable {
-@override
-void printDocument() => print('Mencetak laporan bulanan...');
+  @override
+  void printDocument() => print('Mencetak laporan bulanan...');
 }
-//
